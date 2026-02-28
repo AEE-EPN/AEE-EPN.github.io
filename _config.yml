@@ -5,7 +5,7 @@ description: >-
 url: "https://AEE-EPN.github.io" 
 baseurl: ""
 theme: minima
-
+timezone: America/Guayaquil
 header_pages:
   - recursos.md
   - auspiciantes.md
