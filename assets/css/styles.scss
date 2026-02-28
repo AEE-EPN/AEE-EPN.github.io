@@ -195,6 +195,23 @@ body {
   color: $white;
 }
 
+.btn.secondary {
+  background: transparent;
+  color: $navy;
+  border: 1px solid $navy;
+}
+
+.btn.secondary:hover {
+  background: #f3f4f6;
+}
+
+.btn-group {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
 /* Contact Section */
 .contact-section {
   padding: 20px 0 56px;

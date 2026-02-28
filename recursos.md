@@ -13,12 +13,10 @@ La malla curricular de Ingeniería Eléctrica te proporciona el plan de estudios
 <div class="resource-card">
   <h3>📋 Malla Curricular de Ingeniería Eléctrica</h3>
   <p>Plan de estudios con todas las asignaturas organizadas por semestre.</p>
-  <a href="{{ '/resources/malla_electricidad.pdf' | relative_url }}" class="btn cta" download>Descargar PDF</a>
-</div>
-
-<!-- Embebido PDF para vista previa -->
-<div class="resource-embed">
-  <iframe src="{{ '/resources/malla_electricidad.pdf' | relative_url }}" width="100%" height="640" style="border:1px solid #e6e6e6; border-radius:8px;"></iframe>
+  <div class="btn-group">
+    <a href="{{ '/resources/malla_electricidad.pdf' | relative_url }}" class="btn cta" target="_blank">Abrir PDF</a>
+    <a href="{{ '/resources/malla_electricidad.pdf' | relative_url }}" class="btn secondary" download>Descargar PDF</a>
+  </div>
 </div>
 
 ---
