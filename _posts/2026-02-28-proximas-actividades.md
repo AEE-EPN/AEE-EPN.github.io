@@ -4,11 +4,16 @@ title:  "Cursos Vacacionales"
 date:   2026-02-28 15:00:00 -0500
 categories: eventos comunicados
 ---
-¡Hola a todos! 
+¡Hola a todos!
 
 Desde la directiva ponemos a disposición los cursos Vacacionales para empezar con pie derecho el semestre 2026-A. Revisa nuestra oferta a continuación:
-![Afiche Informativo](/assets/images/cursos/1.jpg)
-![Afiche Informativo](/assets/images/cursos/2.jpg)
-![Afiche Informativo](/assets/images/cursos/3.jpg)
+
+![Afiche Informativo]({{ '/assets/images/cursos/1.jpg' | relative_url }})
+
+![Afiche Informativo]({{ '/assets/images/cursos/2.jpg' | relative_url }})
+
+![Afiche Informativo]({{ '/assets/images/cursos/3.jpg' | relative_url }})
+
 ¡¿Aún tienes dudas?! No te preocupes puedes entrar a la primera clase gratis y compruebes por ti mismo la efectividad de los cursos.
-![Afiche Informativo](/assets/images/cursos/0.jpg)
+
+![Afiche Informativo]({{ '/assets/images/cursos/0.jpg' | relative_url }})
