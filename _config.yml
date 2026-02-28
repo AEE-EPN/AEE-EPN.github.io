@@ -1,12 +1,11 @@
 title: Noticias AEE
-email: correo-de-la-asociacion@epn.edu.ec
+email: aee@epn.edu.ec
 description: >-
-  Página web dedicada a dar novedades acerca de la carrera de Ingeniería Eléctrica EPN
-url: "https://AEE-EPN.github.io" # O la URL de la organización que hayas creado
+  Página web dedicada a dar novedades acerca de la carrera de Ingeniería Eléctrica EPN.
+url: "https://AEE-EPN.github.io" 
 baseurl: ""
 theme: minima
 
 header_pages:
   - recursos.md
   - auspiciantes.md
-  - contacto.md
