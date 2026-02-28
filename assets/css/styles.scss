@@ -161,9 +161,12 @@ body {
   color: $muted;
   margin: 0 0 12px 0;
   display: -webkit-box;
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
 }
 
 .card-foot {
@@ -192,16 +195,12 @@ body {
   color: $white;
 }
 
-/* Home Layout Grid */
-.home-layout {
-  display: grid;
-  grid-template-columns: 1fr 320px;
-  gap: 32px;
+/* Contact Section */
+.contact-section {
   padding: 20px 0 56px;
-  align-items: start;
 }
 
-.home-sidebar .section-title {
+.contact-section .section-title {
   margin-top: 0;
 }
 
@@ -247,13 +246,6 @@ body {
   border: none;
   border-top: 1px solid $border;
   margin: 20px 0;
-}
-
-@media (max-width: 850px) {
-  .home-layout {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
 }
 
 /* Footer */

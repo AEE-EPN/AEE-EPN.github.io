@@ -9,43 +9,42 @@ layout: default
   </div>
 </section>
 
-<div class="home-layout container">
-  <section class="announcements">
+<section class="announcements container">
   <h2 class="section-title">Últimos Anuncios</h2>
   <div class="cards">
     {% for post in site.posts %}
-      <article class="card">
-        <div class="card-top">
-          <div class="card-meta">
-            <time class="card-date">{{ post.date | date: "%d/%m/%Y" }}</time>
-          </div>
-          <h3 class="card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <article class="card">
+      <div class="card-top">
+        <div class="card-meta">
+          <time class="card-date">{{ post.date | date: "%d/%m/%Y" }}</time>
         </div>
-        <div class="card-body">
-          <p class="card-excerpt">{{ post.excerpt | strip_html | truncate: 200 }}</p>
-        </div>
-        <div class="card-foot">
-          <a class="btn cta" href="{{ post.url | relative_url }}">Leer más</a>
-        </div>
-      </article>
+        <h3 class="card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      </div>
+      <div class="card-body">
+        <p class="card-excerpt">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+      </div>
+      <div class="card-foot">
+        <a class="btn cta" href="{{ post.url | relative_url }}">Leer más</a>
+      </div>
+    </article>
     {% endfor %}
   </div>
 </section>
-  <aside class="home-sidebar">
-    <h2 class="section-title">Contacto</h2>
-    <div class="contact-card card">
-      <div class="contact-person">
-        <h4>Presidente</h4>
-        <p class="name">[Nombre del Presidente]</p>
-        <p class="email"><a href="mailto:correo@epn.edu.ec">correo@epn.edu.ec</a></p>
-        <p class="phone">Tlf: [Número]</p>
-      </div>
-      <hr class="contact-divider">
-      <div class="contact-person">
-        <h4>Vicepresidente</h4>
-        <p class="name">[Nombre del Vicepresidente]</p>
-        <p class="email"><a href="mailto:correo@epn.edu.ec">correo@epn.edu.ec</a></p>
-      </div>
+
+<section class="contact-section container">
+  <h2 class="section-title">Contacto</h2>
+  <div class="contact-card card">
+    <div class="contact-person">
+      <h4>Presidente</h4>
+      <p class="name">[Nombre del Presidente]</p>
+      <p class="email"><a href="mailto:correo@epn.edu.ec">correo@epn.edu.ec</a></p>
+      <p class="phone">Tlf: [Número]</p>
     </div>
-  </aside>
-</div>
+    <hr class="contact-divider">
+    <div class="contact-person">
+      <h4>Vicepresidente</h4>
+      <p class="name">[Nombre del Vicepresidente]</p>
+      <p class="email"><a href="mailto:correo@epn.edu.ec">correo@epn.edu.ec</a></p>
+    </div>
+  </div>
+</section>
