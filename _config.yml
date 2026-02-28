@@ -1,3 +1,12 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Noticias AEE
+email: correo-de-la-asociacion@epn.edu.ec
+description: >-
+  Página web dedicada a dar novedades acerca de la carrera de Ingeniería Eléctrica EPN
+url: "https://AEE-EPN.github.io" # O la URL de la organización que hayas creado
+baseurl: ""
+theme: minima
+
+header_pages:
+  - recursos.md
+  - auspiciantes.md
+  - contacto.md
