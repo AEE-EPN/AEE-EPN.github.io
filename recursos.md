@@ -1,10 +1,29 @@
 ---
 layout: page
 title: Recursos
-permalink: /recursos/
+permalink: /recursos
 ---
-# Enlaces Útiles para Estudiantes
 
-* [Malla Curricular de Ingeniería Eléctrica](#)
-* [Formatos de Solicitudes y Trámites](#)
-* [Reglamento de la EPN](#)
+# Recursos para Estudiantes de Ingeniería Eléctrica
+
+## Malla Curricular
+
+La malla curricular de Ingeniería Eléctrica te proporciona el plan de estudios completo. Descárgalo aquí:
+
+<div class="resource-card">
+  <h3>📋 Malla Curricular de Ingeniería Eléctrica</h3>
+  <p>Plan de estudios con todas las asignaturas organizadas por semestre.</p>
+  <a href="/resources/malla_electricidad.pdf" class="btn cta" download>Descargar PDF</a>
+</div>
+
+---
+
+## Enlaces Útiles
+
+* [Portal Web EPN](https://www.epn.edu.ec)
+* [Sistema de Inscripciones](https://admision.epn.edu.ec)
+* [Plataforma de Calificaciones](https://academico.epn.edu.ec)
+
+---
+
+**¿Necesitas más recursos?** Contacta a la directiva de la AEE-EPN: [aee@epn.edu.ec](mailto:aee@epn.edu.ec)

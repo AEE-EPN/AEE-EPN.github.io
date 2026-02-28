@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Auspiciantes
-permalink: /auspiciantes/
+permalink: /auspiciantes
 ---
 # Nuestros Aliados
 

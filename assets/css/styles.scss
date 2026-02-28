@@ -22,12 +22,14 @@ body {
 /* Header */
 .site-header {
   color: $white;
-  background-image: linear-gradient(180deg, $navy 0%, darken($navy,5%) 100%), url({{ '/assets/images/pattern-header.svg' | relative_url }});
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-size: 360px 100%;
+  background: linear-gradient(180deg, $navy 0%, darken($navy,5%) 100%);
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none"><defs><style>.s{fill:none;stroke:%2388b3d9;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;opacity:0.12}</style></defs><path class="s" d="M0 30 Q100 10 200 30 T400 30 T600 30 T800 30 T1000 30" /><path class="s" d="M0 60 Q100 40 200 60 T400 60 T600 60 T800 60 T1000 60" /><path class="s" d="M0 90 Q100 70 200 90 T400 90 T600 90 T800 90 T1000 90" /><path class="s" d="M200 10 V120" /><circle class="s" cx="200" cy="120" r="4" /><path class="s" d="M600 0 V130" /><circle class="s" cx="600" cy="130" r="3" /></svg>');
+  background-repeat: repeat-x;
+  background-position: left center;
+  background-color: $navy;
+  position: relative;
 }
-.header-inner { display:flex; align-items:center; justify-content:space-between; padding:12px 0; }
+.header-inner { display:flex; align-items:center; justify-content:space-between; padding:12px 0; position: relative; z-index: 1; }
 .brand { display:flex; align-items:center; gap:12px; text-decoration:none; color:$white; }
 .brand-logo { width:48px; height:48px; object-fit:contain; filter: drop-shadow(0 1px 0 rgba(0,0,0,0.15)); }
 .brand-title { font-weight:700; font-size:1.125rem; }
@@ -56,16 +58,28 @@ body {
 
 /* Footer */
 .site-footer {
-  background-image: linear-gradient(180deg, $navy 0%, darken($navy,5%) 100%), url({{ '/assets/images/pattern-footer.svg' | relative_url }});
-  background-repeat: no-repeat;
-  background-position: left bottom;
-  background-size: 420px 100%;
+  background: linear-gradient(180deg, $navy 0%, darken($navy,5%) 100%);
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="none"><defs><style>.s{fill:none;stroke:%2388b3d9;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;opacity:0.10}</style></defs><path class="s" d="M0 100 Q100 80 200 100 T400 100 T600 100 T800 100 T1000 100" /><path class="s" d="M0 130 Q100 110 200 130 T400 130 T600 130 T800 130 T1000 130" /><path class="s" d="M0 160 Q100 140 200 160 T400 160 T600 160 T800 160 T1000 160" /><path class="s" d="M400 50 V150" /><circle class="s" cx="400" cy="150" r="4" /><path class="s" d="M800 60 V160" /><circle class="s" cx="800" cy="160" r="3" /></svg>');
+  background-repeat: repeat-x;
+  background-position: left center;
+  background-color: $navy;
   color: $white;
   padding:18px 0;
   margin-top:40px;
+  position: relative;
 }
 .footer-inner { display:flex; justify-content:space-between; gap:12px; align-items:center; }
 .footer-right { color: $gold; font-weight:600; }
+
+/* Page Content */
+.page-content { padding:32px 0; }
+.page-content h1 { color:$navy; }
+.page-content h2, .page-content h3 { color:$navy; margin-top:28px; }
+.page-content a { color:$gold; font-weight:600; }
+.page-content a:hover { text-decoration:underline; }
+.resource-card { background:#f9fafb; border:1px solid $border; padding:20px; border-radius:8px; margin:20px 0; }
+.resource-card h3 { margin-top:0; color:$navy; }
+.resource-card p { color:$muted; }
 
 /* Responsive tweaks */
 @media (max-width:720px) {
