@@ -12,3 +12,5 @@ header_pages:
   - auspiciantes.md
 exclude:
   - resources
+
+  - assets/css/styles.scss
