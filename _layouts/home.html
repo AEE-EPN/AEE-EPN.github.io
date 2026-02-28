@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="container hero-inner">
+    <h1 class="hero-title">¡Bienvenidos al Tablero de Noticias!</h1>
+    <p class="hero-sub">Comunicados, convocatorias y avisos para la comunidad de Ingeniería Eléctrica.</p>
+  </div>
+</section>
+
+<section class="announcements container">
+  <h2 class="section-title">Últimos Anuncios</h2>
+  <div class="cards">
+    {% for post in site.posts %}
+      <article class="card">
+        <div class="card-meta">
+          <time class="card-date">{{ post.date | date: "%d/%m/%Y" }}</time>
+        </div>
+        <h3 class="card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <p class="card-excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
+        <a class="btn cta" href="{{ post.url | relative_url }}">Leer más</a>
+      </article>
+    {% endfor %}
+  </div>
+</section>
