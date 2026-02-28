@@ -14,12 +14,18 @@ layout: default
   <div class="cards">
     {% for post in site.posts %}
       <article class="card">
-        <div class="card-meta">
-          <time class="card-date">{{ post.date | date: "%d/%m/%Y" }}</time>
+        <div class="card-top">
+          <div class="card-meta">
+            <time class="card-date">{{ post.date | date: "%d/%m/%Y" }}</time>
+          </div>
+          <h3 class="card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
         </div>
-        <h3 class="card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <p class="card-excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
-        <a class="btn cta" href="{{ post.url | relative_url }}">Leer más</a>
+        <div class="card-body">
+          <p class="card-excerpt">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+        </div>
+        <div class="card-foot">
+          <a class="btn cta" href="{{ post.url | relative_url }}">Leer más</a>
+        </div>
       </article>
     {% endfor %}
   </div>

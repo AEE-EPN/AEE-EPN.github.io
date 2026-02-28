@@ -16,6 +16,11 @@ La malla curricular de Ingeniería Eléctrica te proporciona el plan de estudios
   <a href="/resources/malla_electricidad.pdf" class="btn cta" download>Descargar PDF</a>
 </div>
 
+<!-- Embebido PDF para vista previa -->
+<div class="resource-embed">
+  <iframe src="/resources/malla_electricidad.pdf" width="100%" height="640" style="border:1px solid #e6e6e6; border-radius:8px;"></iframe>
+</div>
+
 ---
 
 ## Enlaces Útiles

@@ -1,5 +1,9 @@
----
----
+$navy: #001F3F;
+$gold: #C5A059;
+$white: #FFFFFF;
+$muted: #6b7280;
+$border: #e6e6e6;
+
 // Color system
 $navy: #001F3F;
 $gold: #C5A059;
@@ -46,12 +50,31 @@ body {
 .announcements { padding:20px 0 56px; }
 .section-title { color:$navy; margin-bottom:12px; }
 .cards { display:grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap:16px; }
-.card { background:$white; border:1px solid $border; padding:16px; border-radius:8px; box-shadow: 0 1px 4px rgba(16,24,40,0.03); }
+.card {
+  background:$white;
+  border:1px solid $border;
+  padding:16px;
+  border-radius:8px;
+  box-shadow: 0 1px 4px rgba(16,24,40,0.03);
+  display:flex;
+  flex-direction:column;
+  min-height:180px;
+}
 .card-date { display:inline-block; background:$gold; color:$white; padding:6px 8px; border-radius:6px; font-weight:600; font-size:0.85rem; }
-.card-title { margin:12px 0 8px 0; font-size:1.05rem; }
+.card-title { margin:8px 0 8px 0; font-size:1.05rem; }
 .card-title a { color:$navy; text-decoration:none; }
 .card-title a:hover { text-decoration:underline; }
-.card-excerpt { color:$muted; margin:0 0 12px 0; }
+.card-body { flex:1 1 auto; }
+.card-excerpt {
+  color:$muted;
+  margin:0 0 12px 0;
+  display:-webkit-box;
+  -webkit-line-clamp:5;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+.card-foot { margin-top:12px; }
+.card-foot .btn { margin-top:auto; }
 .btn { display:inline-block; padding:8px 12px; border-radius:6px; text-decoration:none; font-weight:700; }
 .btn.cta { background:$gold; color:$white; }
 .btn.cta:hover { background:$navy; color:$white; }
@@ -80,6 +103,16 @@ body {
 .resource-card { background:#f9fafb; border:1px solid $border; padding:20px; border-radius:8px; margin:20px 0; }
 .resource-card h3 { margin-top:0; color:$navy; }
 .resource-card p { color:$muted; }
+
+/* Sponsors */
+.sponsors { display:grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap:16px; }
+.sponsor { display:flex; gap:12px; align-items:center; background:#fff; border:1px solid $border; padding:12px; border-radius:8px; }
+.sponsor-logo { width:64px; height:64px; object-fit:contain; }
+.sponsor-info h3 { margin:0; font-size:1rem; color:$navy; }
+.sponsor-info p { margin:6px 0 0 0; color:$muted; font-size:0.95rem; }
+
+/* Resource embed */
+.resource-embed { margin-top:16px; }
 
 /* Responsive tweaks */
 @media (max-width:720px) {
