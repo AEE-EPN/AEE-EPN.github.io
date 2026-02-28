@@ -9,7 +9,8 @@ layout: default
   </div>
 </section>
 
-<section class="announcements container">
+<div class="home-layout container">
+  <section class="announcements">
   <h2 class="section-title">Últimos Anuncios</h2>
   <div class="cards">
     {% for post in site.posts %}
@@ -30,3 +31,21 @@ layout: default
     {% endfor %}
   </div>
 </section>
+  <aside class="home-sidebar">
+    <h2 class="section-title">Contacto</h2>
+    <div class="contact-card card">
+      <div class="contact-person">
+        <h4>Presidente</h4>
+        <p class="name">[Nombre del Presidente]</p>
+        <p class="email"><a href="mailto:correo@epn.edu.ec">correo@epn.edu.ec</a></p>
+        <p class="phone">Tlf: [Número]</p>
+      </div>
+      <hr class="contact-divider">
+      <div class="contact-person">
+        <h4>Vicepresidente</h4>
+        <p class="name">[Nombre del Vicepresidente]</p>
+        <p class="email"><a href="mailto:correo@epn.edu.ec">correo@epn.edu.ec</a></p>
+      </div>
+    </div>
+  </aside>
+</div>
