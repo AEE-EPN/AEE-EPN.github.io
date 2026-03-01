@@ -5,33 +5,118 @@ date:   2026-02-28 15:00:00 -0500
 categories: eventos comunicados
 ---
 
-* Electrotecnia: Martes de 8-10 pm
-[Unirse a la reunión de Teams](https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV)
-* Fundamentos de Electromagnetismo: Martes de 6-8 pm
-[Unirse a la reunión de Teams](https://teams.microsoft.com/meet/29702301566552?p=9Y00HWWkjnlvJ8jDNz)
-* Matemática Avanzada: Martes Jueves 8-10 pm
-[Unirse a la reunión de Teams](https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV)
-* Fundamentos de Circuitos Eléctricos: 6-8 pm
-[Unirse a la reunión de Teams](https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV)
-*Dispositivos Electrónicos: Lunes 8-10 pm
-[Unirse a la reunión de Teams](https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV)
-* Teoría Electromágnetica: Lunes 6-8 pm
-[Unirse a la reunión de Teams](https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV)
-* Conversión Electromágnetica: Jueves 6-8 pm
-[Unirse a la reunión de Teams](https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV)
-* Análisis de Señales y Sistemas: Jueves 6-8 pm
-[Unirse a la reunión de Teams](https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV)
-*Análisis de Circuitos Eléctricos: Lunes 6-8 pm
-[Unirse a la reunión de Teams](https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV)
-* Electrónica de Potencia: Jueves 6-8 pm
-[Unirse a la reunión de Teams](https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV)
-* Máquinas Eléctricas: Jueves 8-10 pm
-[Unirse a la reunión de Teams](https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV)
-* Modelación de SEP: Lunes 8-10 pm
-[Unirse a la reunión de Teams](https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV)
-* Sistemas de Control Automático: Miércoles 6-8 pm
-[Unirse a la reunión de Teams](https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV)
-* Dinámica de Máquinas Eléctricas: Jueves 8-10 pm
-[Unirse a la reunión de Teams](https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV)
-* Estabilidad de SEP: Martes 8-10 pm
-[Unirse a la reunión de Teams](https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV)
+<style>
+  .semester-title { color: #001F3F; border-bottom: 2px solid #C5A059; padding-bottom: 5px; margin-top: 35px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 15px; }
+  .card { border: 1px solid #e6e6e6; border-radius: 8px; padding: 16px; background: #FFFFFF; box-shadow: 0 2px 4px rgba(0,0,0,0.04); border-left: 4px solid #001F3F; }
+  .card h4 { margin: 0 0 10px 0; color: #001F3F; font-size: 1.1em; line-height: 1.3; }
+  .card p { margin: 0 0 15px 0; color: #6b7280; font-size: 0.95em; }
+  .btn-teams { display: block; background: #001F3F; color: #FFFFFF !important; padding: 10px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.9em; text-align: center; transition: background 0.2s; }
+  .btn-teams:hover { background: #C5A059; text-decoration: none; }
+</style>
+
+¡Hola a todos! A continuación les compartimos los horarios y enlaces oficiales para acceder a las clases de los cursos vacacionales. Busquen su semestre y hagan clic en el botón para unirse a la sala de Teams correspondiente.
+
+<h2 class="semester-title">2do Semestre</h2>
+<div class="grid">
+  <div class="card">
+    <h4>Electrotecnia</h4>
+    <p>🕒 Martes de 8:00 a 10:00 pm</p>
+    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+  </div>
+  <div class="card">
+    <h4>Fundamentos de Electromagnetismo</h4>
+    <p>🕒 Martes de 6:00 a 8:00 pm</p>
+    <a href="https://teams.microsoft.com/meet/29702301566552?p=9Y00HWWkjnlvJ8jDNz" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+  </div>
+</div>
+
+<h2 class="semester-title">3er Semestre</h2>
+<div class="grid">
+  <div class="card">
+    <h4>Matemática Avanzada</h4>
+    <p>🕒 Martes y Jueves de 8:00 a 10:00 pm</p>
+    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+  </div>
+  <div class="card">
+    <h4>Dispositivos Electrónicos</h4>
+    <p>🕒 Lunes de 8:00 a 10:00 pm</p>
+    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+  </div>
+  <div class="card">
+    <h4>Fundamentos de Circuitos Eléctricos</h4>
+    <p>🕒 [DÍA FALTANTE] de 6:00 a 8:00 pm</p>
+    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+  </div>
+  <div class="card">
+    <h4>Teoría Electromagnética</h4>
+    <p>🕒 Lunes de 6:00 a 8:00 pm</p>
+    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+  </div>
+</div>
+
+<h2 class="semester-title">4to Semestre</h2>
+<div class="grid">
+  <div class="card">
+    <h4>Análisis de Señales y Sistemas</h4>
+    <p>🕒 Jueves de 6:00 a 8:00 pm</p>
+    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+  </div>
+  <div class="card">
+    <h4>Conversión Electromagnética</h4>
+    <p>🕒 Jueves de 6:00 a 8:00 pm</p>
+    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+  </div>
+  <div class="card">
+    <h4>Análisis de Circuitos Eléctricos</h4>
+    <p>🕒 Lunes de 6:00 a 8:00 pm</p>
+    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+  </div>
+</div>
+
+<h2 class="semester-title">5to Semestre</h2>
+<div class="grid">
+  <div class="card">
+    <h4>Máquinas Eléctricas</h4>
+    <p>🕒 Jueves de 8:00 a 10:00 pm</p>
+    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+  </div>
+  <div class="card">
+    <h4>Sistemas de Control Automático</h4>
+    <p>🕒 Miércoles de 6:00 a 8:00 pm</p>
+    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+  </div>
+  <div class="card">
+    <h4>Modelación de SEP</h4>
+    <p>🕒 Lunes de 8:00 a 10:00 pm</p>
+    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+  </div>
+  <div class="card">
+    <h4>Electrónica de Potencia</h4>
+    <p>🕒 Jueves de 6:00 a 8:00 pm</p>
+    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+  </div>
+</div>
+
+<h2 class="semester-title">6to Semestre</h2>
+<div class="grid">
+  <div class="card">
+    <h4>Dinámica de Máquinas Eléctricas</h4>
+    <p>🕒 Jueves de 8:00 a 10:00 pm</p>
+    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+  </div>
+  <div class="card">
+    <h4>Estudios de Estado Estacionario</h4>
+    <p>🕒 [HORARIO FALTANTE]</p>
+    <a href="#" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+  </div>
+</div>
+
+<h2 class="semester-title">7mo Semestre</h2>
+<div class="grid">
+  <div class="card">
+    <h4>Estabilidad de SEP</h4>
+    <p>🕒 Martes de 8:00 a 10:00 pm</p>
+    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+  </div>
+</div>
