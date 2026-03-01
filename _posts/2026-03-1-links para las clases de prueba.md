@@ -36,22 +36,22 @@ categories: eventos comunicados
   <div class="card">
     <h4>Matemática Avanzada</h4>
     <p>🕒 Martes y Jueves de 8:00 a 10:00 pm</p>
-    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+    <a href="" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
   </div>
   <div class="card">
     <h4>Dispositivos Electrónicos</h4>
     <p>🕒 Lunes de 8:00 a 10:00 pm</p>
-    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+    <a href="https://teams.microsoft.com/meet/27545785754056?p=7sDBAT4M0GtugstYL4" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
   </div>
   <div class="card">
     <h4>Fundamentos de Circuitos Eléctricos</h4>
     <p>🕒 [DÍA FALTANTE] de 6:00 a 8:00 pm</p>
-    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+    <a href="https://teams.microsoft.com/meet/29140471513450?p=qcPxeJOKtLUquAR5VV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
   </div>
   <div class="card">
     <h4>Teoría Electromagnética</h4>
     <p>🕒 Lunes de 6:00 a 8:00 pm</p>
-    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+    <a href="https://teams.microsoft.com/meet/28161456683677?p=CeGaFLVNYXERgcx8jU" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
   </div>
 </div>
 
@@ -60,17 +60,17 @@ categories: eventos comunicados
   <div class="card">
     <h4>Análisis de Señales y Sistemas</h4>
     <p>🕒 Jueves de 6:00 a 8:00 pm</p>
-    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+    <a href="https://teams.microsoft.com/meet/28409459194097?p=1sSEyOgU4xqIVXhbYc" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
   </div>
   <div class="card">
     <h4>Conversión Electromagnética</h4>
     <p>🕒 Jueves de 6:00 a 8:00 pm</p>
-    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+    <a href="https://teams.microsoft.com/meet/28448379623348?p=EW84RluQX8PAk0mYpq" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
   </div>
   <div class="card">
     <h4>Análisis de Circuitos Eléctricos</h4>
     <p>🕒 Lunes de 6:00 a 8:00 pm</p>
-    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+    <a href="Pendiente2" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
   </div>
 </div>
 
@@ -79,22 +79,22 @@ categories: eventos comunicados
   <div class="card">
     <h4>Máquinas Eléctricas</h4>
     <p>🕒 Jueves de 8:00 a 10:00 pm</p>
-    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+    <a href="https://teams.microsoft.com/meet/2363084754946?p=AiL60iCCmlLJPNxwcv" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
   </div>
   <div class="card">
     <h4>Sistemas de Control Automático</h4>
     <p>🕒 Miércoles de 6:00 a 8:00 pm</p>
-    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+    <a href="https://teams.microsoft.com/meet/26826949478979?p=o6vQLB3UMXDGAZIZI1" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
   </div>
   <div class="card">
     <h4>Modelación de SEP</h4>
     <p>🕒 Lunes de 8:00 a 10:00 pm</p>
-    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+    <a href="https://teams.microsoft.com/meet/25353212498319?p=eCOLBCNpEf7RZ98qLu" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
   </div>
   <div class="card">
     <h4>Electrónica de Potencia</h4>
     <p>🕒 Jueves de 6:00 a 8:00 pm</p>
-    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+    <a href="https://teams.microsoft.com/meet/24139620485230?p=abDCOBbvgFgpei9mEw" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
   </div>
 </div>
 
@@ -103,12 +103,12 @@ categories: eventos comunicados
   <div class="card">
     <h4>Dinámica de Máquinas Eléctricas</h4>
     <p>🕒 Jueves de 8:00 a 10:00 pm</p>
-    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+    <a href="https://teams.microsoft.com/meet/26430596962567?p=8MFLR8r6CdIDtqtna2" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
   </div>
   <div class="card">
     <h4>Estudios de Estado Estacionario</h4>
     <p>🕒 [HORARIO FALTANTE]</p>
-    <a href="#" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+    <a href="https://teams.microsoft.com/meet/25353212498319?p=eCOLBCNpEf7RZ98qLu" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
   </div>
 </div>
 
@@ -117,6 +117,6 @@ categories: eventos comunicados
   <div class="card">
     <h4>Estabilidad de SEP</h4>
     <p>🕒 Martes de 8:00 a 10:00 pm</p>
-    <a href="https://teams.microsoft.com/meet/22146696557560?p=nCO5dgtdV2M85W4DmV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+    <a href="https://teams.microsoft.com/meet/29683809063504?p=b3tZd5v6GkpJXfTXeO" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
   </div>
 </div>
