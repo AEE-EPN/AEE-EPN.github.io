@@ -107,7 +107,7 @@ categories: eventos comunicados
   </div>
   <div class="card">
     <h4>Estudios de Estado Estacionario</h4>
-    <p>🕒 [HORARIO FALTANTE]</p>
+    <p>🕒 Martes de 6:00 a 8:00 pm</p>
     <a href="https://teams.microsoft.com/meet/25353212498319?p=eCOLBCNpEf7RZ98qLu" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
   </div>
 </div>
