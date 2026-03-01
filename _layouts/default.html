@@ -1,41 +1,44 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title | default: site.title }}</title>
-    <meta name="description" content="{{ page.description | default: site.description }}">
-    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container header-inner">
-        <a class="brand" href="{{ "/" | relative_url }}">
-          <img src="{{ "/assets/images/Logo.png" | relative_url }}" alt="AEE-EPN" class="brand-logo">
-          <span class="brand-title">Noticias AEE</span>
-        </a>
-        <nav class="main-nav">
-          <a href="{{ "/" | relative_url }}">Inicio</a>
-          <a href="{{ "/recursos" | relative_url }}">Recursos</a>
-          <a href="{{ "/auspiciantes" | relative_url }}">Auspiciantes</a>
-        </nav>
-      </div>
-    </header>
 
-    <main class="container site-main">
-      {{ content }}
-    </main>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ " /assets/css/styles.css" | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
 
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <div>
-          <strong>Noticias AEE</strong> — Asociación de Estudiantes de Ingeniería Eléctrica, EPN
-        </div>
-        <div class="footer-right">&copy; {{ site.time | date: "%Y" }} AEE-EPN</div>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="{{ " /" | relative_url }}">
+        <img src="{{ " /assets/images/Logo.png" | relative_url }}" alt="AEE-EPN" class="brand-logo">
+        <span class="brand-title">Noticias AEE</span>
+      </a>
+      <nav class="main-nav">
+        <a href="{{ " /" | relative_url }}">Inicio</a>
+        <a href="{{ " /recursos" | relative_url }}">Recursos</a>
+        <a href="javascript:void(0)" style="cursor: default;" title="Próximamente">Auspiciantes</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container site-main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Noticias AEE</strong> — Asociación de Estudiantes de Ingeniería Eléctrica, EPN
       </div>
-    </footer>
-  </body>
+      <div class="footer-right">&copy; {{ site.time | date: "%Y" }} AEE-EPN</div>
+    </div>
+  </footer>
+</body>
+
 </html>
