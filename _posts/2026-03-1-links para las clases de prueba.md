@@ -70,7 +70,7 @@ categories: eventos comunicados
   <div class="card">
     <h4>Análisis de Circuitos Eléctricos</h4>
     <p>🕒 Lunes de 6:00 a 8:00 pm</p>
-    <a href="Pendiente2" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+    <a href="https://teams.microsoft.com/meet/21652782572449?p=h3fh8hVqBVhSuZaCh5" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
   </div>
 </div>
 
