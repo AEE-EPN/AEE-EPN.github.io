@@ -36,7 +36,8 @@ categories: eventos comunicados
   <div class="card">
     <h4>Matemática Avanzada</h4>
     <p>🕒 Martes y Jueves de 8:00 a 10:00 pm</p>
-    <a href="" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
+    <a href="https://teams.microsoft.com/meet/24977142846146?p=XgVvVBOXj3Fjh3lYYN
+    " class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
   </div>
   <div class="card">
     <h4>Dispositivos Electrónicos</h4>
