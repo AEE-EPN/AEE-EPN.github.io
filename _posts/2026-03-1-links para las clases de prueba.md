@@ -15,7 +15,7 @@ categories: eventos comunicados
   .btn-teams:hover { background: #C5A059; text-decoration: none; }
 </style>
 
-¡Hola a todos! A continuación les compartimos los horarios y enlaces oficiales para acceder a las clases de los cursos vacacionales. Busquen su semestre y hagan clic en el botón para unirse a la sala de Teams correspondiente.
+¡Hola a todos! A continuación les compartimos los horarios y enlaces oficiales para acceder a las clases de los cursos vacacionales. Busquen su semestre y hagan clic en el botón para unirse a la sala de Teams correspondiente. Recuerda que estos links son únicamente para la primera clase de cada curso.
 
 <h2 class="semester-title">2do Semestre</h2>
 <div class="grid">
