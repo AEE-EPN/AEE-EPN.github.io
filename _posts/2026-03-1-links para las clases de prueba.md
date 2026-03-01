@@ -45,7 +45,7 @@ categories: eventos comunicados
   </div>
   <div class="card">
     <h4>Fundamentos de Circuitos Eléctricos</h4>
-    <p>🕒 [DÍA FALTANTE] de 6:00 a 8:00 pm</p>
+    <p>🕒 Jueves de 6:00 a 8:00 pm</p>
     <a href="https://teams.microsoft.com/meet/29140471513450?p=qcPxeJOKtLUquAR5VV" class="btn-teams" target="_blank" rel="noopener">Unirse a Teams</a>
   </div>
   <div class="card">
